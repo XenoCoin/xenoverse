@@ -1,0 +1,34 @@
+src/*.exe
+src/xenoversecoin
+src/xenoversecoind
+src/test_xenoversecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.xenoversecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+xenoversecoin-qt
+XenoverseCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+xenoversecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
